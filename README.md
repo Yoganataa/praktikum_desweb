@@ -1,7 +1,7 @@
 # BOOSTRAP CSS JS HTML
 
 <details>
-  <summary>Mahasiswa</summary>
+  <summary>ID Mahasiswa</summary>
   
   ### myid
   Nama  : Mohammad Arbi Yoganata
@@ -10,13 +10,18 @@
 
   ### Question 
   ```
-     Buat halaman Web Menggunakan Bootstrap berisi Navbar, Dan List Sesuai Studi kasus Masing” 
+     Kumpulan source code untuk memenuhi Tugas Praktek Berorientasi Objek
   ```
 </details>
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Repository ini digunakan untuk memenuhi tugas semester 3 dalam pembelajaran HTML CSS dan JS untuk mata kuliah [PRAKTEK PEMROGRAMAN BERORIENTASI OBJEK]
+
+# 🔗 Link Preview Semua Tugas
+'''
+  [![Tugas Disini](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://yoganataa.github.io/praktikum_desweb/)
+'''
 
 <hr>
 <h2 align="center">🔥 Languages & Tools 🔥</h2>
