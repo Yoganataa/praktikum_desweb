@@ -19,9 +19,7 @@
 Repository ini digunakan untuk memenuhi tugas semester 3 dalam pembelajaran HTML CSS dan JS untuk mata kuliah [PRAKTEK PEMROGRAMAN BERORIENTASI OBJEK]
 
 # 🔗 Link Preview Semua Tugas
-'''
-  [![Tugas Disini](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://yoganataa.github.io/praktikum_desweb/)
-'''
+  [![Tugas Disini](https://img.shields.io/badge/my_preview_projects-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://yoganataa.github.io/praktikum_desweb/)
 
 <hr>
 <h2 align="center">🔥 Languages & Tools 🔥</h2>

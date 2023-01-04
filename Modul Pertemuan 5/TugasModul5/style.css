@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* Mobile */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* tablet */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/220602_%EB%A5%B4%EC%84%B8%EB%9D%BC%ED%95%8C_%EB%8C%80%EB%A9%B4_%ED%8C%AC%EC%82%AC%EC%9D%B8%ED%9A%8C_%EC%B9%B4%EC%A6%88%ED%95%98%2C_%EA%B9%80%EC%B1%84%EC%9B%90%2C_%EC%82%AC%EC%BF%A0%EB%9D%BC%2C_%ED%97%88%EC%9C%A4%EC%A7%84%2C_%ED%99%8D%EC%9D%80%EC%B1%84_%EB%8B%A8%EC%B2%B4_%EC%BB%B7.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  font-family: Tahoma,Geneva,sans-serif;
+}
+
+#wrap {
+    width:90%;
+    margin:auto;
+    background-color:white;
+    border-radius: 10px;
+    padding: 5px;
+    -moz-box-shadow: 0px 0px 10px #000;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#header{
+    background-image:url('https://cdn.shopify.com/s/files/1/0645/2546/7890/articles/header-min.jpg?v=1664251715&width=1100');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    border: none;
+    height:200px;
+}
+
+#header h1{
+    color:#00125b;
+    padding:40px 0px 0px 20px;
+    text-shadow:#fff 1px 1px 3px;
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+#header img {
+    padding:40px 0px 0px 20px;
+    float: left;
+    object-fit: cover;
+}
+
+#silebar {
+    width:100%;
+    float:left;
+    border-right:1px solid #bababa;
+    border-bottom:1px solid #bababa;
+    border-left:1px solid #bababa;
+    border-radius: 10px;
+}
+
+#judul_silebar{
+    padding:3px;
+    text-align:center;
+    font-weight:bold;
+    border-bottom:1px solid #a10404;
+    /* background-image:url('header.jpg'); */
+    color:rgb(212, 16, 16);
+    border-radius:5px;
+}
+
+#isi_silebar ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+#silebar a{
+    display:block;
+    padding:5px;
+    border-bottom:0px solid #bababa;
+    text-decoration:none;
+    font-size: medium;
+    color:black;
+}
+
+#silebar a:hover{
+    color: #0786AB;
+}
+
+#konten{
+    padding:0px;
+    width:100%;
+    float:left;
+    font-size:11pt;
+    margin:5px;
+    border-right:1px solid #bababa;
+    border-bottom:1px solid #bababa;
+    border-top:1px solid #bababa;
+    border-left:1px solid #bababa;
+    border-radius: 10px;
+}
+
+#footer{
+    background-image:url('./img/footerlss.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    border: none;
+    height: 350px;;
+}
