@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Yoganata0073 -->
+<html lang="id">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sekolah Koding</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <script src="https://sekolahkoding.com/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="./public/css/tailwind.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="container">
+      <div id="nav-brand">
+          <a href="/"> <img src="./images/logo.png" width="50" alt="logo sekolah koding"> </a>
+            <form class="column" action="/kelas" method="GET">
+                <input type="search" class="input search" name="query" placeholder="mau belajar apa?">
+            </form>
+      </div>
+      <div id="nav-menu">
+          <div class="nav-item">
+              <a href="/kelas-feed" class="nav-item">Belajar</a>
+              <div class="nav-sub-menu">
+                  <a href="/kelas-feed" class="nav-sub-menu-item">Kelas</a>
+                  <a href="/panduan" class="nav-sub-menu-item">Panduan</a>
+                  <a href="/track" class="nav-sub-menu-item">Perjalanan</a>
+              </div>
+           </div>
+
+           <div class="nav-item">
+               <a href="/nongkrong" class="nav-item">Nongkrong</a>
+               <div class="nav-sub-menu">
+                  <a href="/nongkrong" class="nav-sub-menu-item">Semua</a>
+                   <a href="/forum" class="nav-sub-menu-item">Forum</a>
+                   <a href="/artikel" class="nav-sub-menu-item">Artikel</a>
+                   <a href="/mading" class="nav-sub-menu-item">Mading</a>
+               </div>
+            </div>
+
+                      <a href="/login" class="nav-item">Login</a>
+                </div>
+
+      <div class="nav-toggle" onclick="toggleMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+  </nav>
+    
+    
+    <div class="container">
+        <section class="columns hero">
+                  </section>
+
+        <main>
+                <div class="columns">
+    	<div class="column is-sixty">
+    		<div class="is-center">
+    			<img src="./images/laptop.png" alt="gambar komputer" width="250">
+    		</div>
+    		<h1 class="title">Belajar Programming,<br> Mulai dari Nol</h1>
+    		<h2 class="subtitle">Belajar membuat website dan aplikasi. Bingung mulai dari mana? Tenang, mari bergabung bersama 100 ribu+ teman lainnya. Mau bekerja sebagai programmer atau membuat karya, kamu juga bisa!</h2>
+    	</div>
+
+    	<div class="column">
+    		<div class="cards">
+    <form class="form v-group-s" method="POST" action="https://sekolahkoding.com/register">
+        <input type="hidden" name="_token" value="TmvwULP2RA66QrxNOerW0r0oRpdZgpotDOHncpfo">
+        <div class="is-center v-dist">
+            <p class="is-small">Daftar dengan: </p>
+            <div class="columns h-dist is-mobile">
+                <a class="button with-img is-small is-danger" href="/login/google">Google</a>
+                <a class="button with-img is-small is-dark" href="/login/github">Github</a>
+                <a class="button with-img is-small is-blueTw" href="/login/twitter">Twitter</a>
+            </div>
+
+            <p class="is-small">atau daftar dengan email</p>
+        </div>
+
+        <div class="input-wrapper ">
+    <label for="username" class="label"> Username </label>
+
+            <input id="username" placeholder="" name="username"
+                value="" autocomplete="username" type=""
+                class="input">
+                
+</div>
+<p id="warning_username" class="warning is-hidden"></p>
+
+
+        <div class="input-wrapper ">
+    <label for="email" class="label"> Email </label>
+
+            <input id="email" placeholder="" name="email"
+                value="" autocomplete="email" type=""
+                class="input">
+                
+</div>
+<p id="warning_email" class="warning is-hidden"></p>
+
+
+        <div class="input-wrapper ">
+    <label for="password" class="label"> Password </label>
+
+            <input id="password" placeholder="" name="password"
+                value="" autocomplete="password" type="password"
+                class="input">
+                
+</div>
+<p id="warning_password" class="warning is-hidden"></p>
+
+
+        <button type="submit" class="button is-primary">Daftar</button>
+
+        <div class="is-center v-dist">
+            <p class="is-small">Dengan mendaftar, kamu setuju <br>dengan <a class="link" target="_blank" href="/syarat">syarat dan ketentuan</a> kami</p>
+        </div>
+    </form>
+</div>    	</div>
+    </div>
+</body>
+</html>
