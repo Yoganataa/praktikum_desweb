@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 py-6">
+        <h1><img src="./src/images/anime/header.png" alt="">
+    </header>
+    <main class="container mx-auto p-6">
+        <section class="bg-gray-700 p-6 rounded-lg">
+            <h2 class="text-2xl mb-2">Rilis Baru</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="col-span-1">
+                    <img src="./src/images/anime/fa.jpg" class="w-full rounded-lg">
+                    <p class="mt-2">Full Metal Alchemist</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="./src/images/anime/ovl.jpg" class="w-full rounded-lg">
+                    <p class="mt-2">Overlord</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="./src/images/anime/ttn.jpeg" class="w-full rounded-lg">
+                    <p class="mt-2">Tate no Yushaa</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-700 p-6 rounded-lg mt-6">
+            <h2 class="text-2xl mb-2">Anime Popular</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="col-span-1">
+                    <img src="./src/images/anime/bkn.jpg" class="w-full rounded-lg">
+                    <p class="mt-2">Boku No Hero</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="./src/images/anime/bkn.jpg" class="w-full rounded-lg">
+                    <p class="mt-2">Boku No Hero</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="./src/images/anime/bkn.jpg" class="w-full rounded-lg">
+                    <p class="mt-2">Boku  No Hero</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-700 p-6 rounded-lg mt-6">
+            <h2 class="text-2xl mb-2">Contact Us</h2>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-gray-400 font-medium mb-2" for="name">Name</label>
+                    <input class="bg-gray-800 rounded-lg p-2 text-white w-full" type="text" id="name" name="name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-400 font-medium mb-2" for="email">Email</label>
+                    <input class="bg-gray-800 rounded-lg p-2 text-white w-full" type="email" id="email" name="email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-400 font-medium mb-2" for="message">Message</label>
+                    <textarea class="bg-gray-800 rounded-lg p-2 text-white w-full" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 py-6">
+        <p class="text-center">Copyright &copy; 2023 - Animenesi Nata</p>
+    </footer>
+</body>
+</html>

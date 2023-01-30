@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+    <title>UAS-JavaScript Input</title>
+ 
+    
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"><h1>Data Mahasiswa</h1>
+          <form name="datapribadi" method="" action="">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nama</label>
+        <input type="text" class="form-control" name="nama" id="exampleFormControlInput1" placeholder="isi nama asli....">
+        <label for="exampleFormControlInput1">NIM</label>
+        <input type="nim" class="form-control" name="nim" id="exampleFormControlInput2" placeholder="isi nim ....">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Kelas</label>
+        <textarea class="form-control" name="kelas" id="exampleFormControlTextarea1" placeholder="isi kelas...."rows="3"></textarea>
+        <button type="button" onClick='inputdata()' class="btn btn-success">Simpan</button>
+<button type="reset" class="btn btn-warning">Batal</button>
+      </div>
+      <div class="row">
+        <table class="table" id="databel">
+          <thead>
+            <tr>
+              <th scope="col">Nama</th>
+              <th scope="col">NIM</th>
+              <th scope="col">Kelas</th>
+            </tr>
+          </thead>
+        </table>  
+      </div>
+    </form>
+        </div>          
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    
+ 
+
+    
+<script >
+    function inputdata(){
+  var n=document.forms['datapribadi']['nama'].value;
+  var e=document.forms['datapribadi']['nim'].value;
+  var a=document.forms['datapribadi']['kelas'].value;        
+  var tabel = document.getElementById("databel");
+  var baris = tabel.insertRow(1);
+  var kol1 = baris.insertCell(0);
+  var kol2 = baris.insertCell(1);
+  var kol3 = baris.insertCell(2);
+          
+  kol1.innerHTML = n;
+  kol2.innerHTML = e;
+  kol3.innerHTML = a;
+ }
+ </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+   </body>
+</html>
